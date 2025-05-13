@@ -4,6 +4,4 @@
 
 毕业设计分数：98分（小声bb）
 
-演示：
-
-[![项目演示](https://imgur.mengta.link/images/2025/05/13/da7dd2d5710f4bfef0f87d2d4062cd51.fr.jpeg)](https://imgur.mengta.link/video/RTkH)
+演示：![点击即可]((https://imgur.mengta.link/video/RTkH))
