@@ -6,4 +6,4 @@
 
 演示：
 
-[![项目演示](https://imgur.mengta.link/images/2025/05/13/da7dd2d5710f4bfef0f87d2d4062cd51.fr.jpeg)](https://imgur.mengta.link/video/RTkH)
+<video src="https://imgur.mengta.link/images/2025/05/13/da7dd2d5710f4bfef0f87d2d4062cd51.mp4" controls poster="https://imgur.mengta.link/images/2025/05/13/da7dd2d5710f4bfef0f87d2d4062cd51.fr.jpeg"></video>
