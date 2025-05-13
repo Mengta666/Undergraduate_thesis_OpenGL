@@ -1,0 +1,22 @@
+1.关于Vao，Vbo，buffer的解释     链接：https ://www.zhihu.com/question/30095978/answer/67147426
+
+2.  vao对缓冲区的实际绑定方式
+    若vao中只指向两个缓冲区的数据
+    vao ---> | attrib[0] |--- vbo1中的第一组 vec3 array {x,y,z}   //3d-坐标 buffer
+             |-----------|
+             | attrib[1] |--- vbo2中的第一组 vec2 array {x,y}     //纹理 buffer
+             |-----------|
+             | attrib[0] |--- vbo1中的第二组 vec3 array {x,y,z}   //3d-坐标 buffer
+             |-----------|
+             | attrib[1] |--- vbo2中的第二组 vec2 array {x,y}     //纹理  buffer
+             |-----------|
+             | attrib[0] |--- vbo1中的第三组 vec3 array {x,y,z}   //3d-坐标 buffer
+             |-----------|
+             | attrib[1] |--- vbo2中的第三组 vec2 array {x,y}     //纹理  buffer
+             |-----------|
+             |   ...     |
+             |-----------|
+             | attrib[1] |--- vbo2中的第 n 组 vec2 array {x,y}     //纹理  buffer
+              ~~~~~~~~~~~
+    那么对于 VertexBufferLayout.h 中的 m_Stride 来说，在此处的值为 sizeof(vec3 array {x,y,z}) + sizeof(vec2 array {x,y})
+    
