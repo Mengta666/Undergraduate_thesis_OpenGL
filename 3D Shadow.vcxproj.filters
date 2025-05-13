@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{ce4d082c-ad17-4a6f-95d8-e7922e67e3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DrawShader">
+      <UniqueIdentifier>{79fe9ca3-558a-4ed2-9547-c026c3b154bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyBoard">
+      <UniqueIdentifier>{ad4da8ce-748e-45d0-9deb-3b0e3e10db1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{3b64a7f5-82a7-4c96-a851-613a56b5dacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{3332b285-45ef-48d2-a04d-1deef31192d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{232369e1-0cd2-437c-ad80-958800ea5b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{fb94413b-3dc2-44a0-8aa3-48a164b8d219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vender">
+      <UniqueIdentifier>{b61ba8fe-871c-4d04-b77f-d659c0bb00c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vender\imgui">
+      <UniqueIdentifier>{ef10f9bf-ffa7-4baa-a319-e268ad5a5fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vender\std image">
+      <UniqueIdentifier>{713d6601-71c0-47d1-ad84-50019f33d457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadow">
+      <UniqueIdentifier>{5c80d6cc-992e-4836-9501-1e96a6b372f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Shadow">
+      <UniqueIdentifier>{632554fc-2132-44b2-94de-b12e33a184a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadow\OmnidirectionalShadowMaps">
+      <UniqueIdentifier>{591dd3f0-4d56-40c8-a2d8-1f3ae9c517e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\OmnidirectionalShadowMaps">
+      <UniqueIdentifier>{6804e698-9d4e-4be6-8aa0-78b894722078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\test.cpp">
+      <UniqueIdentifier>{091f9bd2-9985-447d-ad67-4d7391ff1f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\test.cpp\pointLight">
+      <UniqueIdentifier>{9262d0ed-e8d2-4c8e-8909-65783791b4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Model%28MAINCPP%29">
+      <UniqueIdentifier>{b9970fc1-9c1d-445c-842e-e272f32c2bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\SkyBox">
+      <UniqueIdentifier>{1880d13d-eb85-4a6a-aa5e-a688ec81f099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkyBox">
+      <UniqueIdentifier>{26ebdf64-2a80-4c99-b73e-9c795d92a9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\animation">
+      <UniqueIdentifier>{e74b9010-502b-4df2-b7b4-ebf4951f53e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Animatiom">
+      <UniqueIdentifier>{ccef44c2-0272-493f-9b78-fac2a165cd3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{3378fc9c-7d2b-4f8c-bb8d-2caa0fca80e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Particle">
+      <UniqueIdentifier>{4114b5a2-f91b-4197-92a9-821e0f52dabb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawShader.cpp">
+      <Filter>DrawShader</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoard.cpp">
+      <Filter>KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>Vender\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_demo.cpp">
+      <Filter>Vender\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>Vender\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_impl_glfw.cpp">
+      <Filter>Vender\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Vender\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_tables.cpp">
+      <Filter>Vender\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>Vender\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\std image\std_image.cpp">
+      <Filter>Vender\std image</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="OmnidirectionalShadowMaps.cpp">
+      <Filter>Shadow\OmnidirectionalShadowMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferLayout.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawShader.h">
+      <Filter>DrawShader</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoard.h">
+      <Filter>KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>Vender\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>Vender\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_glfw.h">
+      <Filter>Vender\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_opengl3.h">
+      <Filter>Vender\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Vender\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>Vender\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_rectpack.h">
+      <Filter>Vender\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_textedit.h">
+      <Filter>Vender\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_truetype.h">
+      <Filter>Vender\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\std image\std_image.h">
+      <Filter>Vender\std image</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="OmnidirectionalShadowMaps.h">
+      <Filter>Shadow\OmnidirectionalShadowMaps</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Model\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Model\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_Animation.h">
+      <Filter>Model\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpGLMHelpers.h">
+      <Filter>Model\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Model\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\shadow_map_frag.glsl">
+      <Filter>Shaders\Shadow</Filter>
+    </None>
+    <None Include="Shaders\shadow_map_vert.glsl">
+      <Filter>Shaders\Shadow</Filter>
+    </None>
+    <None Include="Shaders\OmnidirectionalShadowMapsFrag.glsl">
+      <Filter>Shaders\OmnidirectionalShadowMaps</Filter>
+    </None>
+    <None Include="Shaders\OmnidirectionalShadowMapsGeom.glsl">
+      <Filter>Shaders\OmnidirectionalShadowMaps</Filter>
+    </None>
+    <None Include="Shaders\OmnidirectionalShadowMapsVert.glsl">
+      <Filter>Shaders\OmnidirectionalShadowMaps</Filter>
+    </None>
+    <None Include="Shaders\model_frag.glsl">
+      <Filter>Shaders\Model%28MAINCPP%29</Filter>
+    </None>
+    <None Include="Shaders\model_vert.glsl">
+      <Filter>Shaders\Model%28MAINCPP%29</Filter>
+    </None>
+    <None Include="Shaders\vertexShader.glsl">
+      <Filter>Shaders\test.cpp</Filter>
+    </None>
+    <None Include="Shaders\fragmentShader.glsl">
+      <Filter>Shaders\test.cpp</Filter>
+    </None>
+    <None Include="Shaders\pointLightFrag.glsl">
+      <Filter>Shaders\test.cpp\pointLight</Filter>
+    </None>
+    <None Include="Shaders\pointLightVert.glsl">
+      <Filter>Shaders\test.cpp\pointLight</Filter>
+    </None>
+    <None Include="Shaders\SkyBox_frag.glsl">
+      <Filter>Shaders\SkyBox</Filter>
+    </None>
+    <None Include="Shaders\SkyBox_vert.glsl">
+      <Filter>Shaders\SkyBox</Filter>
+    </None>
+    <None Include="Shaders\AnimaionVert.glsl">
+      <Filter>Shaders\Animatiom</Filter>
+    </None>
+    <None Include="Shaders\AnimaionFrag.glsl">
+      <Filter>Shaders\Animatiom</Filter>
+    </None>
+    <None Include="Shaders\ParticleFrag.glsl">
+      <Filter>Shaders\Particle</Filter>
+    </None>
+    <None Include="Shaders\ParticleVert.glsl">
+      <Filter>Shaders\Particle</Filter>
+    </None>
+  </ItemGroup>
+</Project>
